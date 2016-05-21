@@ -1,12 +1,14 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css"></link>
-    <link rel="stylesheet" href="css/normalize.css"></link> 
-	<meta charset="UTF-8">
+    <link rel="stylesheet" href="css/fancybox.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
 	<title>Document</title>
 </head>
 <body>
@@ -15,190 +17,317 @@
 		<div class="row">
 			<div class="col-lg-3 col-sm-6 col-xs-10">
 				<div class="logo">
-					<a href="#" class="logo"><h1>22222</h1></a>
+					<a href="index.html"><img src="img/logo.png" alt="Fluger"></a>
 				</div>
 			</div>
-			<div class="col-lg-6 nav visible-lg">
+			<div class="col-lg-7 nav visible-lg">
 				<ul class="nav nav-pills">
-					<li><a href="#">1111</a></li>
-					<li><a href="#">1111</a></li>
-					<li><a href="#">1111</a></li>
-					<li><a href="#">1111</a></li>
+						<li><a href="#">Номера</a></li>
+   						<li><a href="#">Фото</a></li>
+    					<li><a href="#">Гостям</a></li>
+    					<li><a href="#" data-toggle="modal" data-target="#myModal">Забронировать</a></li>
 				</ul> 
 			</div>	
-			<div class="col-lg-3 col-sm-4 hidden-xs">
+			<div class="col-lg-2 col-sm-4 hidden-xs">
 				<div class="number">
-					<p>777722277</p>
+					<a class="tel" href="tel:+79991050525">+7(999)105-0525</a>
 				</div>
 			</div>
-			<div class="col-xs-2 col-sm-2 hidden-lg">
-				<div class="navbar">
-					<img src="#" alt="#">
-				</div>
+			<div class="menu pull-right hidden-lg">
+					<div class="dropdown">	
+						<button class="dropdown-toggle cmn-toggle-switch__htx" data-toggle="dropdown">
+						<span>toggle menu</span>
+						</button>
+      					<ul class="dropdown-menu dropdown-menu-right">
+   							<li><a href="#">Номера</a></li>
+   							<li><a href="#">Фото</a></li>
+    						<li><a href="#">Гостям</a></li>
+    						<li><a href="#" data-toggle="modal" data-target="#myModal">Забронировать</a></li>
+  						</ul>
+  					</div>	
 			</div>	
 		</div>
 	</div>
 </header>
 <div class="main">
 	<div class="container">
-		<h2>33333</h2>
-		<h3>4444444</h3>
-		<button type="button" class="btn btn-default">Button</button>
+		<h2>хостел в центре петербурга</h2>
+		<div class="addres"><span><img src="img/Pinicon.png"></span><span><h3>наб.Канала Грибоедова, 29</h3></div> 
+			<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">забронировать</button>
+				<div id="myModal" class="modal fade">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" type="button" data-dismiss="modal">×</button>
+								<h4 class="modal-title">Заголовок окна</h4>
+							</div>
+						<div class="modal-body">Текст уведомления</div>
+					<div class="modal-footer">
+							<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+						</div>
+						</div>
+					</div>
+				</div>
+		</div>
 	</div>
-</div>
 <section class="support">
 	<div class="container">
-		<h3>555555</h3>
+		<h3>что такое &laquoфлюгер&raquo?</h3>
 		<div class="row">
 			<div class="col-lg-4 col-sm-4 col-xs-12">
-				<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-city">	
+					<h4>Центр города</h4>
+					<p>15 минут пешком</p><p> до музеев и баров</p>
+				</div>
 			</div>
 			<div class="col-lg-4 col-sm-4 col-xs-12">
-				<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-sunset">
+					<h4>Закаты на крыше</h4>
+					<p>С видом на канал Грибоедова</p><p> и Спас-на-Крови</p>
+				</div>
 			</div>
 			<div class="col-lg-4 col-sm-4 col-xs-12">
-				<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-rooms">
+					<h4>Светлые номера</h4>
+					<p>На 12, 6 и 2 человек</p><p> от 500 до 2 500 за ночь</p>
+				</div>
 			</div>
 		</div>	
 	</div>	
 </section>
 <section class="rooms">
-	<h3>66666</h3>
-	<div class="container">
+	<h3 class="main-title">номера</h3>
 		<div class="col-lg-6 col-sm-6 col-xs-12">
-			<div class="thumbnail">
-				<img src="#" alt="#"/>
+				<a class="rooms-link" href="#">
+			<div class="rooms-12">
+				<table>
+					<tr>
+						<th colspan="2">12-местный</th>
+					</tr>
+					<tr>
+						<td class="row-name">Место:</td>
+						<td>500Р</td>
+					</tr>
+					<tr>
+						<td class="row-name">Номер:</td>
+						<td>5000Р</td>
+					</tr>
+				</table>
 			</div>
+			</a>
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12">
-			<div class="thumbnail">
-				<img src="#" alt="#"/>
+		<a class="rooms-link" href="#">
+			<div class="rooms-6">
+				<table>
+					<tr>
+						<th colspan="2">6-местный</th>
+					</tr>
+					<tr>
+						<td class="row-name">Место:</td>
+						<td>600Р</td>
+					</tr>
+					<tr>
+						<td class="row-name">Номер:</td>
+						<td>3000Р</td>
+					</tr>
+				</table>
 			</div>
+		</a>	
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12">
-			<div class="thumbnail">
-				<img src="#" alt="#"/>
+		<a class="rooms-link" href="#">
+			<div class="rooms-2">
+				<table>
+					<tr>
+						<th colspan="2">2-местный</th>
+					</tr>
+					<tr>
+						<td class="row-name">Место:</td>
+						<td>900Р</td>
+					</tr>
+					<tr>
+						<td class="row-name">Номер:</td>
+						<td>1500Р</td>
+					</tr>
+				</table>	
 			</div>
+			</a>
 		</div>
 		<div class="col-lg-6 col-sm-6 col-xs-12">
-			<div class="thumbnail">
-				<img src="#" alt="#"/>
+			<a class="rooms-link" href="#">
+			<div class="rooms-lux">
+				<table>
+					<tr>
+						<th colspan="2">Люкс</th>
+					</tr>
+					<tr>
+						<td class="row-name">Место:</td>
+						<td>не сдаётся</td>
+					</tr>
+					<tr>
+						<td class="row-name">Номер:</td>
+						<td>2500Р</td>
+					</tr>
+				</table>
 			</div>
+			</a>
 		</div>
-			<button type="button" class="btn btn-default">Button</button>
-	</div>
+			<button type="button" class="btn btn-default choose">выбрать номер</button>
 </section>
 <section class="photos hidden-xs">
-	<h3>777777</h3>
-	<div class="row">
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-	</div>
-	<div class="row hidden-sm">
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-		<div class="col-lg-3 col-sm-6">
-			<img src="#" alt="" class="img-responsive">
-		</div>
-	</div>
-	<button type="button" class="btn btn-default">Button</button>
-</section>
-<section class="offer">
+	<h3 class="main-title">фото хостела</h3>
 	<div class="container">
-		<h3>888888</h3>
+		<div class="row">
+			<div class="gallery col-lg-3 col-sm-6">
+				<a class="fancybox" rel="group" href="img/photo1.jpg">
+				<img src="img/photo1.jpg" alt="" class="responsive" /></a>
+			</div>
+			<div class="gallery col-lg-3 col-sm-6">
+				<a class="fancybox" rel="group" href="img/photo2.jpg">
+				<img src="img/photo2.jpg" alt="" /></a>
+			</div>
+		<div class="gallery col-lg-3 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo3.jpg">
+			<img src="img/photo3.jpg" alt="" /></a>
+		</div>
+		<div class="gallery col-lg-3 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo4.jpg">
+			<img src="img/photo4.jpg" alt="" /></a>
+		</div>
+	</div>
+	<div class="row hidden-sm hidden-md">
+		<div class="col-lg-3 col-md-6 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo1.jpg">
+			<img src="img/photo1.jpg" alt="" /></a>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo2.jpg">
+			<img src="img/photo2.jpg" alt="Фото Хостела" /></a>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo3.jpg">
+			<img src="img/photo3.jpg" alt="Фото Хостела" /></a>
+		</div>
+		<div class="col-lg-3 col-md-6 col-sm-6">
+			<a class="fancybox" rel="group" href="img/photo4.jpg">
+			<img src="img/photo4.jpg" alt="Фото Хостела" /></a>
+		</div>
+		</div>
+	</div>
+	<button type="button" class="btn btn-default choose">все фотографии</button>
+</section>
+</div>
+<section class="support offer">
+	<div class="container">
+		<h3>&laquoфлюгер&raquo предлагает гостям</h3>
 		<div class="row">
 			<div class="col-lg-6 col-sm-6 col-xs-12">
-			<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
-			</div>
+				<div class="support-internet">
+					<h4>Бесплатно сидеть в интернете</h4>
+					<p>Wi-Fi со скоростью 30 Мбит<br>который ловит даже на крыше</p>
+				</div>
+			</div>		
 			<div class="col-lg-6 col-sm-6 col-xs-12">
-			<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-care">
+					<h4>Заботиться<br>о ценных вещах</h4>
+					<p>За каждой кроватью в хостеле<br>закреплена своя камера хранения</p>
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-sm-6 col-xs-12">
-			<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-cook">
+					<h4>Готовить обеды<br>на кухне</h4>
+					<p>Или дать позботиться о них<br>хостелу за 300Р</p>
+				</div>
 			</div>
 			<div class="col-lg-6 col-sm-6 col-xs-12">
-			<img src="#" alt="#" class="pull-left">
-				<h4>11111</h4>
-				<p>22222</p>
+				<div class="support-inspire">
+					<h4>Слушать шум дождя<br>на мансарде</h4>
+					<p>Она устроена для работы и отдыха<br>и вмещает до 30 человек</p>
+				</div>
 			</div>
 		</div>		
 	</div>
 </section>
 <section class="contacts">
 	<div class="container">
-		<h3>999999</h3>
+		<h3 class="main-title">контакты</h3>
 		<div class="row">
-			<div class="col-lg-6 col-sm-12">
-				<img src="#" alt="" class="icon"/>
-				<p>2222</p>
+			<div class="contacts-addres col-lg-6 col-sm-12">
+				<span><img src="img/pin.svg" alt="значок"></span><span><p>Наб.канала Грибоедова, 29</p></span>
 			</div>
-			<div class="col-lg-3 col-sm-12">
-				<img src="#" alt="" class="icon"/>
-				<p>2222</p>
+			<div class="contacts-number col-lg-3 col-sm-12">
+				<span><img src="img/call.svg" alt="значок"></span><span><a class="tel" href="tel:+79991050525">+7(999)105-0525</a></span>
 			</div>
-			<div class="col-lg-3 col-sm-12">
-				<img src="#" alt="" class="icon"/>
-				<p>2222</p>
+			<div class="contacts-mail col-lg-3 col-sm-12">
+				<span><img src="img/mail.svg" alt="значок"></span><span><p>fluger@gmail.com</p></span>
 			</div>
 		</div>
 
 	</div>
-	<div class="map">
-		<img src="#" alt=""/>		
-	</div>
-	<button type="button" class="btn btn-default">Button</button>	
+	<div id="map">
+	<script type="text/javascript">
+		        function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: {lat: 59.93218875, lng: 30.32420218},
+    scrollwheel: false
+  });
+
+  setMarkers(map);
+}
+var points = [
+  ['ФлугерЪ', 59.93218875, 30.32420218],
+];
+
+function setMarkers(map) {
+  var image = {
+    url: 'img/Pinicon.png',
+    size: new google.maps.Size(20, 24),
+    anchor: new google.maps.Point(10, 24)
+  };
+
+  for (var i = 0; i < points.length; i++) {
+    var point = points[i];
+    var marker = new google.maps.Marker({
+      position: {lat: point[1], lng: point[2]},
+      map: map,
+      icon: image,
+      title: point[0]
+    });
+  }
+}	
+  </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgGP8nlEldEdTaSmhCDNBsQSB6FRT9fjg&signed_in=true&callback=initMap"></script>
+</div>
+	<div class="btn-wrapper"><button type="button" class="btn btn-default choose" data-toggle="modal" data-target="#myModal">забронировать</button></div>	
 </section>
+
 <footer>
-	<div class="container">
-		<div class="footer-links1 col-lg-3 col-lg-push-6 col-sm-6 col-sm-push-6 col-xs-12">
-			<p>help</p>
-			<p>photo</p>
-		</div>
-		<div class="footer-links2 col-lg-3 col-lg-push-6 col-sm-6 col-sm-push-12 col-xs-12">
-			<p>visitors</p>
-			<p>booking</p>
-		</div>
-		<div class="footer-contacts1 col-lg-3 col-lg-pull-6 col-sm-6 col-sm-pull-6 col-xs-12">
-			<p>11111</p>
-			<p>2222</p>
-		</div>
-		<div class="footer-contacts2 col-lg-3 col-lg-pull-6 col-sm-6 col-sm-pull-12 col-xs-12">
-			<p>33333</p>
-			<p>4444444</p>
+<div class="row">
+	<div class="rooms-information col-sm-6 col-sm-push-6">
+		<div class="footer-rooms col-lg-3"><h3><a class="first" href="#">номера</a></h3><h3><a href="#">фото</a></h3></div>
+		<div class="footer-guests col-lg-3"><h3><a class="first" href="#">гостям</a></h3><h3><a href="#" data-toggle="modal" data-target="#myModal">забронировать</a></h3>
 		</div>
 	</div>
-	
+
+	<div class="addres-information col-sm-6 col-sm-pull-6">
+		<div class="col-lg-3"><p class="footer-information">Санкт-Петербург<br>Наб.канала Грибоедова, 29</p></div> 
+		<div class="col-lg-3"><p class="footer-information">7(999)105-0525<br>fluger@gmail.com</p></div>
+		<div class="hidden-lg"><p class="footer-information">&copy 2015 &laquoФлюгер&raquo</p></div>
+	</div>
+</div>
+<div class="row visible-lg">
+			<div class="col-lg-3"><p class="footer-information">&copy 2015 &laquoФлюгер&raquo</p></div>
+</div>			
 </footer>
+<a href="#" id="toTop" class="link-to-top"><span class="text">ссылка вверх</span></a>
+<script src="js/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 </html>

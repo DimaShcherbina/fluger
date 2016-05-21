@@ -19,7 +19,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 85,
+				"buffer_size": 5087,
 				"line_ending": "Unix"
 			}
 		}
@@ -110,20 +110,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 85,
+						"buffer_size": 5087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								57
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
