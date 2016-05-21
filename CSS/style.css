@@ -232,7 +232,7 @@ color: #ef5350;
 }    
 }
 @media screen and (min-width:1199px) {
-.main{
+.main,.main-rooms{
   height: 640px;
   padding-top: 69px;
 }  
@@ -243,7 +243,7 @@ color: #ef5350;
   height: 315px;
 }
 }
-.main h2{
+.main h2,.main-rooms h2{
   font-size: 26px;
   text-transform: uppercase;
   margin-top: 176px;
@@ -678,3 +678,102 @@ right:43%;
 transform: rotate(-45deg);
 border-radius:10%;
 } 
+.main-rooms{
+  background-image: url('../img/rooms-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color:#000;
+  text-align: center;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.main-rooms h2{
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-top: 176px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  letter-spacing: 0.1em;
+  color: #ef535e;
+}
+.rooms-equipment td p{
+text-align: left;
+width: 140px;
+padding-left: 45px;
+color: #607d8b;
+}
+.rooms-equipment td .equiped {
+  color: #000;
+}
+.equiped:before{
+content: '';
+position: absolute;
+width: 18px;
+height: 3px;
+background-color: #607d8b;
+transform: rotate(-45deg);
+border-radius:10%;
+left: 35px;
+margin-top: 11px;
+}
+.equiped:after{
+content: '';
+position: absolute;
+width: 12px;
+height: 3px;
+background-color: #607d8b;
+transform: rotate(45deg);
+border-radius:10%;
+left: 29px;
+margin-top: 13px;
+}
+.rooms-catalog{
+  text-transform: uppercase;
+  color: #ef535e;
+  font-size: 24px;
+  margin-top: 28px;
+  margin-bottom: 38px;
+  margin-left: 18px;
+  font-weight: bold;
+}
+ .price td{
+  width: 140px;
+  text-align: left;
+  padding-left: 45px;
+}
+.price{
+  margin-top: 35px;
+}
+.choise{
+margin-top: 35px;
+margin-bottom: 60px;
+color: #ef535e; 
+}
+.rooms-equipment td .equiped-right {
+  color: #000;
+}
+.equiped-right:before{
+content: '';
+position: absolute;
+width: 18px;
+height: 3px;
+background-color: #607d8b;
+transform: rotate(-45deg);
+border-radius:10%;
+left: 175px;
+margin-top: 11px;
+}
+.equiped-right:after{
+content: '';
+position: absolute;
+width: 12px;
+height: 3px;
+background-color: #607d8b;
+transform: rotate(45deg);
+border-radius:10%;
+left: 169px;
+margin-top: 13px;
+}

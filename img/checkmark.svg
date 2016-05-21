@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #90a4ae;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Nightstand_icon" data-name="Nightstand icon" class="cls-1" d="M32,1043a12,12,0,1,1,12-12A12.012,12.012,0,0,1,32,1043Zm0-22a10,10,0,1,0,10,10A10.014,10.014,0,0,0,32,1021Zm-1,15a0.981,0.981,0,0,1-.624-0.22l-5-4a1,1,0,0,1,1.249-1.56l4.253,3.4,6.37-7.28a1,1,0,0,1,1.5,1.32l-7,8A1.016,1.016,0,0,1,31,1036ZM7,1004H52v22H7v-22Zm-6,9H24v39H1v-39Zm39,0H54v34H40v-34Zm-22,25H44v14H18v-14Zm-1-3H27v6H17v-6Zm19,0H46v6H36v-6Z" transform="translate(-20 -1019)"/>
+</svg>
