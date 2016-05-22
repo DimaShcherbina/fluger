@@ -777,3 +777,29 @@ border-radius:10%;
 left: 169px;
 margin-top: 13px;
 }
+.main-photos{
+  background-image: url('../img/photos-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color:#000;
+  text-align: center;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);         
+}
+@media screen and (min-width:1024px){
+.main-photos{
+height: 640px;
+} 
+}
+.main-photos h2{
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-top: 176px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  letter-spacing: 0.1em;
+  color: #000;
+}

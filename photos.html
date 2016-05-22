@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -21,8 +21,8 @@
 			</div>
 			<div class="col-lg-7 nav visible-lg">
 				<ul class="nav nav-pills">
-						<li><a href="#">Номера</a></li>
-   						<li><a href="#">Фото</a></li>
+						<li><a href="rooms.html">Номера</a></li>
+   						<li><a href="photos.html">Фото</a></li>
     					<li><a href="#">Гостям</a></li>
     					<li><a href="#" data-toggle="modal" data-target="#myModal">Забронировать</a></li>
 				</ul> 
@@ -38,8 +38,8 @@
 						<span>toggle menu</span>
 						</button>
       					<ul class="dropdown-menu dropdown-menu-right">
-   							<li><a href="#">Номера</a></li>
-   							<li><a href="#">Фото</a></li>
+   							<li><a href="rooms.html">Номера</a></li>
+   							<li><a href="photos.html">Фото</a></li>
     						<li><a href="#">Гостям</a></li>
     						<li><a href="#" data-toggle="modal" data-target="#myModal">Забронировать</a></li>
   						</ul>
@@ -48,11 +48,49 @@
 		</div>
 	</div>
 </header>
-<div class="main-rooms">
+<div class="main-photos">
 	<div class="container">
-		<h2>номера</h2>
-		<div class="addres"><span><img src="img/Pinicon.png"></span><span><h3>наб.Канала Грибоедова, 29</h3></span></div> 
+		<h2>уважаемые посетители!<br>на данный момент страница находится в разработке, администрация хостела приносит свои извинения.</!br></h2>
+		<div class="addres"><span><img src="img/Pinicon.png"></span><span><h3>наб.Канала Грибоедова, 29</h3></span>
 	</div>
-</div>	
+					<div id="myModal" class="modal fade">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" type="button" data-dismiss="modal">×</button>
+										<h4 class="modal-title">Заголовок окна</h4>
+									</div>
+										<div class="modal-body">Текст уведомления</div>
+										<div class="modal-footer">
+											<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+										</div>
+								</div>
+						</div>
+					</div> 
+	</div>
+</div>
+<footer>
+<div class="row">
+	<div class="rooms-information col-sm-6 col-sm-push-6">
+		<div class="footer-rooms col-lg-3"><h3><a class="first" href="rooms.html">номера</a></h3><h3><a href="photos.html">фото</a></h3></div>
+		<div class="footer-guests col-lg-3"><h3><a class="first" href="#">гостям</a></h3><h3><a href="#" data-toggle="modal" data-target="#myModal">забронировать</a></h3>
+		</div>
+	</div>
+
+	<div class="addres-information col-sm-6 col-sm-pull-6">
+		<div class="col-lg-3"><p class="footer-information">Санкт-Петербург<br>Наб.канала Грибоедова, 29</p></div> 
+		<div class="col-lg-3"><p class="footer-information">7(999)105-0525<br>fluger@gmail.com</p></div>
+		<div class="hidden-lg"><p class="footer-information">&copy 2015 &laquoФлюгер&raquo</p></div>
+	</div>
+</div>
+<div class="row visible-lg">
+			<div class="col-lg-3"><p class="footer-information">&copy 2015 &laquoФлюгер&raquo</p></div>
+</div>			
+</footer>
+<a href="#" id="toTop" class="link-to-top"><span class="text">ссылка вверх</span></a>
+<script src="js/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/script.js"></script>	
 </body>
 </html>
